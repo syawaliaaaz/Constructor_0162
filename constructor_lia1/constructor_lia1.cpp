@@ -17,3 +17,6 @@ mahasiswa(string pnama) :nama(pnama) {
 }
 }; 
 
+int Mahasiswa::nim = 100;
+
+
