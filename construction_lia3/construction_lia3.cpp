@@ -10,21 +10,18 @@ private:
     int nim;
     string nama;
 public:
-    mahasiswa();
-    mahasiswa(int);
-    mahasiswa(string);
-    mahasiswa(int iNim, string iNama);
-    void cetak();
+    mahasiswa() {
+        nim = 0;
+        nama = "";
+    }
+        mahasiswa(int iNim) {
+            nim = iNim;
+        }
+        mahasiswa(string);  
+        mahasiswa(int iNim, string iNama);    
+        void cetak();
+            
 };
-
-mahasiswa::mahasiswa() {
-    nim = 0;
-    nama = "";
-}
-
-mahasiswa::mahasiswa(int iNim) {
-    nim = iNim;
-}
 
 mahasiswa::mahasiswa(string iNama) {
     nim = 0;
@@ -37,13 +34,22 @@ mahasiswa::mahasiswa(int iNim, string iNama) {
 }
 
 void mahasiswa::cetak() {
-    cout << endl << "Nim =" << nim << endl;
-    cout << " Nama = " << nama << endl;
+    cout << endl << "Nim = " << nim << endl;
+    cout << "Nama = " << nama << endl;
 }
 
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+    mahasiswa mhs1;
+    mahasiswa mhs2(20);
+    mahasiswa mhs3("Lia");
+    mahasiswa mhs4(30, "Jefry Nichol");
+
+    mhs1.cetak();
+    mhs2.cetak();
+    mhs3.cetak();
+    mhs4.cetak();
+
+    
 }
 
