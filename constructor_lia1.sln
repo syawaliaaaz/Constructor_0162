@@ -9,7 +9,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "constructor_lia2", "constru
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "construction_lia3", "construction_lia3\construction_lia3.vcxproj", "{C3B92F10-B6FE-4154-868F-DBB1E66F583D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "construction_lia4", "construction_lia4\construction_lia4.vcxproj", "{51EB0FE0-2685-4988-9CB7-48A1F27504C1}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chainfunction_lia", "construction_lia4\construction_lia4.vcxproj", "{51EB0FE0-2685-4988-9CB7-48A1F27504C1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "destruction_lia", "destruction_lia\destruction_lia.vcxproj", "{7E10247D-21FB-4CD7-AA5D-F29F477BD4B7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{51EB0FE0-2685-4988-9CB7-48A1F27504C1}.Release|x64.Build.0 = Release|x64
 		{51EB0FE0-2685-4988-9CB7-48A1F27504C1}.Release|x86.ActiveCfg = Release|Win32
 		{51EB0FE0-2685-4988-9CB7-48A1F27504C1}.Release|x86.Build.0 = Release|Win32
+		{7E10247D-21FB-4CD7-AA5D-F29F477BD4B7}.Debug|x64.ActiveCfg = Debug|x64
+		{7E10247D-21FB-4CD7-AA5D-F29F477BD4B7}.Debug|x64.Build.0 = Debug|x64
+		{7E10247D-21FB-4CD7-AA5D-F29F477BD4B7}.Debug|x86.ActiveCfg = Debug|Win32
+		{7E10247D-21FB-4CD7-AA5D-F29F477BD4B7}.Debug|x86.Build.0 = Debug|Win32
+		{7E10247D-21FB-4CD7-AA5D-F29F477BD4B7}.Release|x64.ActiveCfg = Release|x64
+		{7E10247D-21FB-4CD7-AA5D-F29F477BD4B7}.Release|x64.Build.0 = Release|x64
+		{7E10247D-21FB-4CD7-AA5D-F29F477BD4B7}.Release|x86.ActiveCfg = Release|Win32
+		{7E10247D-21FB-4CD7-AA5D-F29F477BD4B7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
